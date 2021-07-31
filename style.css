@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+/* logo */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  /* text-decoration: none; */
+  list-style: none;
+  margin: 0;
+}
+/* ****************************alert */
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  background-color: #222222;
+  width: 100%;
+  height: 60px;
+}
+
+.alert a {
+  color: #788989;
+  font-size: 15px;
+  /* margin-top: 30px; */
+}
+
+/*********************** main */
+.main {
+  width: 100%;
+  height: 550px;
+  background-image: url("images/hero.webp");
+  background-size: cover;
+  background-position: center;
+}
+.main nav {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main nav .left {
+  width: 17%;
+  margin-left: 85px;
+}
+.main nav .left h1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-family: 700;
+}
+.main nav .mid {
+  width: 30%;
+  margin-left: 40px;
+}
+.main nav .mid ul {
+  display: flex;
+  justify-content: space-between;
+}
+.main nav .mid ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.main nav .right {
+  margin-right: 70px;
+  /* margin-left: 80px; */
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main nav .right p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-right: 20px;
+}
+.main nav .right .internet {
+  margin-right: 12px;
+  padding: 2px;
+  margin-top: 3px;
+}
+
+.main nav .right .whitebac {
+  /* padding: 6px 13px; */
+  padding: 4px 13px;
+  background-color: #ffffff;
+  border-radius: 23px;
+  margin-left: 5px;
+}
+.main nav .right .whitebac .one {
+  margin-right: 8px;
+  padding-left: 2px;
+  margin-bottom: 5px;
+}
+.main nav .right .whitebac .two {
+  margin-top: 3px;
+}
+/* .main nav .right .whitebac img {
+  padding: 3px;
+} */
+.searchbar {
+  margin-top: 5px;
+  width: 67%;
+  height: 65px;
+  background-color: aliceblue;
+  border-radius: 40px;
+  /* position: relative; */
+
+  /* margin: 10px; */
+}
+.mr {
+  /* position: absolute; */
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 10px 10px;
+}
+.mr .box1 {
+  padding-left: 25px;
+}
+.mr h5 {
+  margin-bottom: 3px;
+}
+.main .heading h1 {
+  font-size: 60px;
+  margin: 70px 0px 10px 80px;
+  color: white;
+  line-height: 55px;
+}
+.main .btn {
+  padding: 9px 16px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  margin: 10px 0px 10px 80px;
+}
+.main .btn p {
+  font-family: 700;
+}
+.main .btn a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  /* font-family: 700; */
+}
+/****************************** discover sec */
+.discover {
+  /* margin-top: 40px; */
+  margin: 60px 60px 50px 80px;
+}
+.discover h1 {
+  font-size: 35px;
+  margin-bottom: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.discover .boxes {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+}
+.discover .boxes img {
+  border-radius: 10px;
+}
+.discover .boxes h4 {
+  padding: 12px 0px;
+  font-size: 20px;
+}
+.discover .boxes p {
+  font-weight: 300;
+  font-family: serif;
+}
+
+.discover .boxes .box-1 {
+  /* margin-right: 5px; */
+  width: 33%;
+}
+.discover .boxes .box-2 {
+  width: 33%;
+}
+.discover .boxes .box-3 {
+  width: 33%;
+}
+/* live any where */
+.live4section {
+  margin: 50px 80px;
+}
+.live4section h1 {
+  font-size: 35px;
+  margin-bottom: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.live4section .liveboxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.live4section .liveboxes img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* margin-top: 40px; */
+}
+.live4section .liveboxes h4 {
+  font-size: 18px;
+}
+.live4section .liveboxes .box-1 {
+  margin-right: 10px;
+}
+.live4section .liveboxes .box-2 {
+  margin-right: 10px;
+}
+.live4section .liveboxes .box-3 {
+  margin-right: 10px;
+}
+.live4section .liveboxes .box-4 {
+  margin-right: 10px;
+}
+
+/* ***********************tree section */
+.treesection {
+  background-image: url("images/fullpri.jpg");
+  margin: 40px 70px 50px 80px;
+  background-size: cover;
+  background-position: center;
+  font-family: circular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 88%;
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+}
+.treesection .tbox {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+.treesection .tbox h1 {
+  font-weight: 600;
+  font-size: 55px;
+}
+.treesection .tbox .tbtn {
+  padding: 13px 20px;
+  background-color: #222222;
+  border: none;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+.treesection .tbox a {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/****************************** hosting */
+.hosting {
+  border-radius: 10px;
+  width: 87%;
+  background-position: center;
+  height: 400px;
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-bottom: 70px;
+  margin-right: 60px;
+  background-size: cover;
+  background-image: url("images/dfull.jpg");
+  position: relative;
+}
+.boxh {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+.hosting h1 {
+  color: #ffffff;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.hosting .one {
+  color: #ffffff;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+.hosting .btn {
+  padding: 12px 16px;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+}
+.hosting .btn a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+/* ***********************footer design */
+footer {
+  list-style: none;
+  width: 100%;
+  height: 500px;
+  background-color: #f7f7f7;
+  color: #222222;
+}
+footer .colmn {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+footer .colmn h4 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+footer .colmn li {
+  margin-bottom: 10px;
+}
+footer .colmn .box1 {
+  margin-right: 150px;
+}
+footer .colmn .box2 {
+  margin-right: 150px;
+}
+footer .colmn .box3 {
+  margin-right: 150px;
+}
+/* footer .colmn .box4 {
+  margin-right: 100px;
+} */
